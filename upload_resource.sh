@@ -15,7 +15,7 @@ git init
 ## 将本地资源添加到暂存区
 git add . && git com "Upload resources on `date`"
 ## 添加远端仓库地址
-git remote add origin git@gitee.com:fcbHank/MyResource.git
+git remote add origin git@github.com:fcbhank/MyResource.git
 ## 强 push 到远端（因为每次都删除了.git文件，所以肯定与远端库不同步）
 git push -u -f origin master
 
